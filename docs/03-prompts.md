@@ -30,8 +30,19 @@ REGRAS:
 ...
 ```
 
-> [!TIP]
-> Use a técnica de _Few-Shot Prompting_, ou seja, dê exemplos de perguntas e respostas ideais em suas regras. Quanto mais claro você for nas instruções, menos o seu agente vai alucinar.
+## Regras de Segurança (Guardrails)
+
+O agente Digo possui mecanismos de segurança para evitar respostas inadequadas ou recomendações financeiras diretas.
+
+As principais proteções implementadas são:
+
+- O agente não recomenda investimentos específicos.
+- Caso o usuário pergunte qual investimento deve fazer, o agente informa que não pode recomendar investimentos.
+- O agente pode explicar conceitos financeiros, mas nunca indicar um investimento como sendo o melhor.
+- Perguntas fora do escopo financeiro são respondidas informando que o agente é especializado em educação financeira.
+- O agente nunca solicita ou responde sobre dados sensíveis como CPF, senhas ou informações bancárias.
+
+Esses guardrails garantem que o agente opere de forma segura e responsável, evitando recomendações financeiras diretas e mantendo o foco em educação financeira.
 
 ---
 
