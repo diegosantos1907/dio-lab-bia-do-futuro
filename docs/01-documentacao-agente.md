@@ -5,18 +5,18 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Muitas pessoas têm dificuldade em entender sua situação financeira mensal. 
+Muitas pessoas têm dificuldade em entender sua situação financeira mensal. 
 
 Grande parte dos usuários não sabe exatamente quanto gasta por categoria, quanto sobra do salário ou como organizar melhor suas finanças pessoais.
 
 Além disso, muitos usuários possuem pouco conhecimento sobre conceitos financeiros básicos como CDI, CDB e Tesouro Selic, o que dificulta a tomada de decisões financeiras mais conscientes.
 
-O agente foi criado para ajudar o usuário a compreender melhor sua situação financeira, fornecendo informações sobre renda, gastos, saldo mensal e explicações educativas sobre conceitos financeiros.]
+O agente foi criado para ajudar o usuário a compreender melhor sua situação financeira, fornecendo informações sobre renda, gastos, saldo mensal e explicações educativas sobre conceitos financeiros.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[O agente "Digo – Assistente Financeiro Inteligente" utiliza IA generativa combinada com uma base de dados financeira para ajudar o usuário a entender melhor sua situação financeira.
+O agente "Digo – Assistente Financeiro Inteligente" utiliza IA generativa combinada com uma base de dados financeira para ajudar o usuário a entender melhor sua situação financeira.
 
 A solução funciona por meio de um chat interativo onde o usuário pode fazer perguntas sobre suas finanças pessoais.
 
@@ -29,38 +29,44 @@ O agente é capaz de analisar dados financeiros armazenados em arquivos estrutur
 
 Além disso, o agente também explica conceitos financeiros importantes como CDI, CDB e Tesouro Selic, ajudando o usuário a desenvolver maior conhecimento em educação financeira.
 
-O sistema também possui regras de segurança para evitar recomendações de investimento e proteger dados sensíveis, garantindo respostas responsáveis e confiáveis.]
+O sistema também possui regras de segurança para evitar recomendações de investimento e proteger dados sensíveis, garantindo respostas responsáveis e confiáveis.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[O agente foi desenvolvido para pessoas que desejam entender melhor sua situação financeira e organizar suas finanças pessoais.
+O agente foi desenvolvido para pessoas que desejam entender melhor sua situação financeira e organizar suas finanças pessoais.
 
 Ele é especialmente útil para usuários que desejam acompanhar seus gastos mensais, entender quanto sobra da renda e aprender conceitos básicos de educação financeira.
 
-O agente também pode ser utilizado por pessoas que estão começando a se interessar por organização financeira e desejam aprender sobre produtos financeiros e conceitos como CDI, CDB e Tesouro Selic de forma simples e acessível.]
+O agente também pode ser utilizado por pessoas que estão começando a se interessar por organização financeira e desejam aprender sobre produtos financeiros e conceitos como CDI, CDB e Tesouro Selic de forma simples e acessível.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+[Digo – Assistente Financeiro Inteligente]
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+O agente possui uma personalidade educativa, consultiva e objetiva.
+
+Ele foi projetado para ajudar o usuário a compreender melhor sua situação financeira, explicando conceitos de educação financeira de forma clara e acessível.
+
+O agente busca orientar o usuário na compreensão de seus gastos, renda e organização financeira, sempre mantendo uma postura responsável e evitando recomendações diretas de investimento.
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+O agente utiliza um tom de comunicação amigável, claro e educativo.
+
+As respostas são apresentadas de forma simples e didática, evitando termos técnicos complexos sempre que possível. O objetivo é tornar conceitos financeiros mais fáceis de entender para qualquer usuário.
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: - Saudação: "Olá! Como posso ajudar você com suas finanças hoje?"
+- Confirmação: - Confirmação: "Entendi! Vou verificar suas informações financeiras para responder sua pergunta."
+- Erro/Limitação: - Erro/Limitação: "Não posso recomendar investimentos específicos, mas posso explicar conceitos financeiros que podem ajudar na sua decisão."
 
 ---
 
@@ -70,35 +76,44 @@ O agente também pode ser utilizado por pessoas que estão começando a se inter
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM]
-    C --> D[Base de Conhecimento]
-    D --> C
-    C --> E[Validação]
-    E --> F[Resposta]
-```
+A[Usuário] --> B[Interface Streamlit]
+B --> C[Agente Digo]
+C --> D[LLM - OpenAI API]
+C --> E[Base de Conhecimento]
+
+E --> F[perfil_cliente.json]
+E --> G[perfil_investidor.json]
+E --> H[produtos_financeiros.json]
+E --> I[transacoes.csv]
+
+C --> J[Validação e Regras de Segurança]
+J --> K[Resposta ao Usuário]
 
 ### Componentes
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
-
----
+| Interface | Chat interativo desenvolvido em Streamlit onde o usuário faz perguntas sobre suas finanças |
+| LLM | Modelo GPT-4o-mini acessado através da API da OpenAI para gerar respostas inteligentes |
+| Base de Conhecimento | Arquivos JSON e CSV contendo dados do cliente, perfil de investidor, produtos financeiros e transações |
+| Validação | Regras de segurança e auditoria de respostas para evitar alucinações e recomendações de investimentos |
 
 ## Segurança e Anti-Alucinação
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- O agente responde apenas com base nos dados presentes na base de conhecimento (arquivos JSON e CSV).
+- Informações financeiras como gastos e renda são calculadas diretamente a partir dos dados fornecidos, evitando respostas inventadas pela IA.
+- Quando uma pergunta está fora do escopo de educação financeira, o agente informa sua limitação e redireciona a conversa para o tema correto.
+- O agente não recomenda investimentos específicos e mantém uma postura educativa ao explicar conceitos financeiros.
+- Dados sensíveis como CPF, senha ou informações bancárias não são acessados nem exibidos pelo agente.
 
 ### Limitações Declaradas
-> O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+O agente possui algumas limitações importantes:
+
+- Não realiza recomendações de investimentos específicos.
+- Não acessa contas bancárias reais ou dados financeiros externos.
+- Não executa operações financeiras como pagamentos ou transferências.
+- Não substitui a orientação de um consultor financeiro profissional.
+- Não faz previsões de mercado financeiro ou recomendações baseadas em especulação.
