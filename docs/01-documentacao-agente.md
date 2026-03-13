@@ -88,6 +88,7 @@ E --> I[transacoes.csv]
 
 C --> J[Validação e Regras de Segurança]
 J --> K[Resposta ao Usuário]
+```
 
 ### Componentes
 
