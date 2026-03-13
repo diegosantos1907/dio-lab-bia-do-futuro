@@ -34,7 +34,11 @@ O sistema também possui regras de segurança para evitar recomendações de inv
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+[O agente foi desenvolvido para pessoas que desejam entender melhor sua situação financeira e organizar suas finanças pessoais.
+
+Ele é especialmente útil para usuários que desejam acompanhar seus gastos mensais, entender quanto sobra da renda e aprender conceitos básicos de educação financeira.
+
+O agente também pode ser utilizado por pessoas que estão começando a se interessar por organização financeira e desejam aprender sobre produtos financeiros e conceitos como CDI, CDB e Tesouro Selic de forma simples e acessível.]
 
 ---
 
