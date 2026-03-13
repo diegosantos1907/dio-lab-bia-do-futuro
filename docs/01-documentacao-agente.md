@@ -5,12 +5,31 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+[Muitas pessoas têm dificuldade em entender sua situação financeira mensal. 
+
+Grande parte dos usuários não sabe exatamente quanto gasta por categoria, quanto sobra do salário ou como organizar melhor suas finanças pessoais.
+
+Além disso, muitos usuários possuem pouco conhecimento sobre conceitos financeiros básicos como CDI, CDB e Tesouro Selic, o que dificulta a tomada de decisões financeiras mais conscientes.
+
+O agente foi criado para ajudar o usuário a compreender melhor sua situação financeira, fornecendo informações sobre renda, gastos, saldo mensal e explicações educativas sobre conceitos financeiros.]
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+[O agente "Digo – Assistente Financeiro Inteligente" utiliza IA generativa combinada com uma base de dados financeira para ajudar o usuário a entender melhor sua situação financeira.
+
+A solução funciona por meio de um chat interativo onde o usuário pode fazer perguntas sobre suas finanças pessoais.
+
+O agente é capaz de analisar dados financeiros armazenados em arquivos estruturados (JSON e CSV) para responder perguntas como:
+
+- Qual é a renda mensal do usuário
+- Quanto o usuário gasta por categoria
+- Quanto sobra do salário após os gastos
+- Qual é o perfil de investidor do usuário
+
+Além disso, o agente também explica conceitos financeiros importantes como CDI, CDB e Tesouro Selic, ajudando o usuário a desenvolver maior conhecimento em educação financeira.
+
+O sistema também possui regras de segurança para evitar recomendações de investimento e proteger dados sensíveis, garantindo respostas responsáveis e confiáveis.]
 
 ### Público-Alvo
 > Quem vai usar esse agente?
