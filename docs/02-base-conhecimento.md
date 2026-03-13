@@ -29,11 +29,13 @@ Esses dados foram estruturados de forma simples e organizada para facilitar o pr
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-Os dados da base de conhecimento são carregados no início da execução do sistema utilizando Python.
+Os dados da base de conhecimento são carregados dinamicamente pelo agente utilizando Python.
 
 Os arquivos no formato JSON são lidos utilizando a biblioteca padrão `json`, enquanto os arquivos CSV são carregados com a biblioteca `pandas`.
 
-Após o carregamento, essas informações são armazenadas em estruturas de dados dentro da aplicação e utilizadas pelo agente para analisar o perfil do cliente, interpretar transações financeiras e fornecer respostas contextualizadas.
+Sempre que o usuário realiza uma nova pergunta no chat, o agente recarrega os dados presentes na pasta `data`, garantindo que as respostas utilizem as informações mais atualizadas disponíveis.
+
+Após o carregamento, essas informações são utilizadas pelo agente para analisar o perfil do cliente, interpretar transações financeiras e fornecer respostas contextualizadas.
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
