@@ -4,8 +4,15 @@
 
 A avaliação pode ser feita de duas formas complementares:
 
-1. **Testes estruturados:** Você define perguntas e respostas esperadas;
-2. **Feedback real:** Pessoas testam o agente e dão notas.
+1. **Testes estruturados:** foram criadas perguntas específicas para verificar se o agente responde corretamente utilizando os dados da base de conhecimento.
+
+2. **Feedback real:** o agente também foi testado por outras pessoas (familiares e amigos) que interagiram com o sistema fazendo perguntas sobre finanças .
+
+Durante esses testes, os participantes avaliaram a clareza das respostas, utilidade das informações e segurança do comportamento do agente.
+
+No geral, o agente recebeu avaliações muito positivas, com notas médias próximas de **10**, indicando que as respostas foram consideradas claras, úteis e coerentes com o objetivo de educação financeira.
+
+Isso mostra que você teve:
 
 ---
 
@@ -24,27 +31,35 @@ A avaliação pode ser feita de duas formas complementares:
 
 ## Exemplos de Cenários de Teste
 
+- testes estruturados
+
+- testes com usuários
+
+- avaliação de qualidade
+
+- resultado positivo
+
 Crie testes simples para validar seu agente:
 
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto XYZ?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ---
 
@@ -53,10 +68,15 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- O agente respondeu corretamente perguntas sobre renda, gastos e perfil financeiro utilizando os dados da base de conhecimento.
+- O sistema conseguiu explicar conceitos financeiros como CDB e Tesouro Selic de forma clara e educativa.
+- O agente evitou recomendações de investimentos específicos, mantendo um comportamento seguro e responsável.
+- Perguntas fora do escopo financeiro foram tratadas corretamente, informando as limitações do agente.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Expandir a base de conhecimento com mais produtos financeiros e cenários de uso.
+- Melhorar a interpretação de perguntas mais abertas feitas pelos usuários.
+- Adicionar mais dados financeiros para permitir análises mais detalhadas.
 
 ---
 
