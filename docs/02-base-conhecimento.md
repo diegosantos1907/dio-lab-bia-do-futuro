@@ -67,7 +67,7 @@ Perfil do Investidor:
 Resumo de Gastos Mensais:
 - Alimentação: R$ 770
 - Transporte: R$ 660
-- Moradia: R$ 1.500
+- Moradia: R$ 1.800
 - Lazer: R$ 540
 
 Saldo disponível estimado após despesas: R$ 2.030
