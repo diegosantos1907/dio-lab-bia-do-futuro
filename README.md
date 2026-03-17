@@ -82,22 +82,27 @@ app.py       # Interface Streamlit
 ## ▶️ Como Executar o Projeto
 
 ### 1. Clonar o repositório
-
-```bash
 git clone https://github.com/diegosantos1907/dio-lab-bia-do-futuro
-```
 
-### 2. Instalar dependências
+### 2. Entrar na pasta do projeto
+cd dio-lab-bia-do-futuro
 
-```bash
+### 3. Criar ambiente virtual (opcional, mas recomendado)
+python -m venv venv
+
+### 4. Ativar ambiente virtual
+
+Windows:
+venv\Scripts\activate
+
+Mac/Linux:
+source venv/bin/activate
+
+### 5. Instalar dependências
 pip install -r requirements.txt
-```
 
-### 3. Executar o sistema
-
-```bash
+### 6. Executar o sistema
 streamlit run app.py
-```
 
 ---
 
