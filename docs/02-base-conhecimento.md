@@ -14,13 +14,13 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 ## Adaptações nos Dados
 
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
+Os dados utilizados pelo agente foram adaptados e personalizados a partir de dados mockados para simular um cenário realista de organização financeira pessoal.
 
-Os dados utilizados pelo agente foram criados como dados mockados para simular um cenário real de organização financeira pessoal.
+Foram criados arquivos em JSON e CSV representando um cliente fictício, incluindo informações como perfil financeiro, histórico de transações, produtos financeiros disponíveis e histórico de atendimentos.
 
-Foram desenvolvidos arquivos JSON e CSV representando informações de um cliente fictício, incluindo perfil financeiro, histórico de transações e produtos financeiros disponíveis para explicação.
+Esses dados foram estruturados de forma estratégica para permitir que o agente gere respostas contextualizadas, evitando alucinações e garantindo que todas as respostas sejam baseadas exclusivamente nas informações fornecidas.
 
-Esses dados foram estruturados de forma simples e organizada para facilitar o processamento pelo agente e permitir que o modelo de linguagem gere respostas contextualizadas com base nas informações do cliente.
+Além disso, os dados foram organizados para possibilitar análises financeiras, como controle de gastos, cálculo de saldo e recomendações educativas alinhadas ao perfil do usuário.
 
 ---
 
