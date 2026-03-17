@@ -74,6 +74,19 @@ CDB significa Certificado de Depósito Bancário. É um tipo de investimento de 
 
 ---
 
+### Cenário 3: Análise de dados financeiros
+Contexto: O cliente deseja entender seus gastos com base nos dados registrados.
+
+Usuário:
+
+Qual é o meu maior gasto mensal?
+
+Agente:
+
+Seu maior gasto mensal é com Moradia, aproximadamente R$ 1.800. Esse valor representa a maior parte das suas despesas, sendo importante avaliar se está dentro do seu planejamento financeiro.
+
+---
+
 ## Edge Cases
 
 ### Pergunta fora do escopo
