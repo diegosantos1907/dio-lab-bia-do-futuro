@@ -24,6 +24,16 @@ O sistema combina análise de dados com linguagem natural, permitindo que o usu�
 
 ---
 
+## 🚀 Demonstração do Sistema (Interface)
+
+O sistema desenvolvido permite que o usuário visualize sua situação financeira de forma clara e interativa.
+
+A aplicação conta com um dashboard com indicadores financeiros, análise de gastos por categoria e um chat inteligente que responde com base nos dados do usuário.
+
+Abaixo estão algumas telas reais da aplicação em funcionamento:
+
+---
+
 ## 📸 Evidências do Sistema
 
 ### 📊 Painel Financeiro
