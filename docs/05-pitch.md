@@ -5,48 +5,56 @@
  
 ## Roteiro Sugerido
 
-### 1. O Problema (30 seg)
-> Qual dor do cliente você resolve?
+## 🎤 1. PROBLEMA (30s)
 
-Muitas pessoas têm dificuldade em entender sua situação financeira e organizar seus gastos mensais. 
-Mesmo tendo renda suficiente, muitas vezes não sabem exatamente quanto gastam, quanto sobra no final do mês ou quais decisões financeiras podem tomar com mais segurança.
+Muitas pessoas têm dificuldade em entender a própria vida financeira.
+Mesmo ganhando bem, não sabem exatamente quanto gastam, quanto sobra no fim do mês ou onde estão errando.
 
-Além disso, muitas pessoas procuram informações sobre investimentos na internet e acabam recebendo recomendações sem considerar seu perfil financeiro ou sua realidade. Isso pode levar a decisões financeiras equivocadas.
+Além disso, quando buscam informações sobre investimentos, acabam recebendo recomendações genéricas, que não consideram sua realidade.
 
-Por isso, existe a necessidade de um assistente financeiro que ajude o usuário a entender suas finanças de forma simples, segura e baseada em dados.
+Isso gera decisões financeiras ruins.
 
-### 2. A Solução (1 min)
-> Como seu agente resolve esse problema?
+Por isso, existe a necessidade de um assistente financeiro que seja simples, seguro e baseado nos dados do próprio usuário.
 
-A solução desenvolvida foi o Digo, um assistente financeiro inteligente criado com Python, Streamlit e um modelo de linguagem da OpenAI.
+## 🎤 2. SOLUÇÃO (1 min)
 
-O agente utiliza uma base de conhecimento composta por arquivos JSON e CSV contendo informações do cliente, perfil de investidor, produtos financeiros e histórico de transações.
+Para resolver esse problema, eu desenvolvi o Digo, um assistente financeiro inteligente.
 
-Com essas informações, o agente consegue analisar dados financeiros, responder perguntas sobre renda e despesas, explicar conceitos financeiros e ajudar o usuário a entender melhor sua situação financeira.
+Ele foi construído com Python, Streamlit e integração com modelo de linguagem da OpenAI.
 
-Além disso, o sistema possui regras de segurança para evitar alucinações, impedir recomendações diretas de investimentos e proteger informações sensíveis.
+O diferencial é que ele utiliza uma base de dados estruturada com informações do usuário, como renda, transações, perfil financeiro e produtos disponíveis.
 
-### 3. Demonstração (1 min)
-> Mostre o agente funcionando (pode ser gravação de tela)
+Com isso, o agente consegue analisar gastos, calcular saldo, responder dúvidas financeiras e explicar conceitos de forma personalizada.
 
-Durante a demonstração será apresentado o agente Digo funcionando em uma interface desenvolvida com Streamlit.
+Além disso, ele possui regras de segurança importantes:
+ele não recomenda investimentos específicos, não acessa dados sensíveis e evita alucinações, respondendo apenas com base nas informações disponíveis.
 
-Primeiro será mostrado o chat do assistente financeiro, onde o usuário pode fazer perguntas relacionadas às suas finanças.
+## 🎤 3. DEMONSTRAÇÃO (1 min)
 
-Em seguida serão demonstrados alguns exemplos de perguntas, como consulta da renda mensal, análise de gastos e explicação de produtos financeiros como CDB ou Tesouro Selic.
+Agora vou mostrar o sistema funcionando.
 
-Também será mostrado como o agente responde perguntas fora do escopo financeiro ou solicitações de recomendações de investimento, demonstrando as regras de segurança e anti-alucinação implementadas no sistema.
+Aqui temos o chat do Digo, onde o usuário pode fazer perguntas sobre sua vida financeira.
 
-### 4. Diferencial e Impacto (30 seg)
-> Por que essa solução é inovadora e qual é o impacto dela na sociedade?
+Por exemplo, podemos perguntar sobre a renda mensal ou análise de gastos.
 
-O diferencial dessa solução é combinar inteligência artificial com uma base de dados estruturada para gerar respostas contextualizadas e mais seguras.
+O agente responde com base nos dados carregados, trazendo informações claras e organizadas.
 
-Diferente de assistentes genéricos, o agente utiliza dados financeiros específicos do cliente para explicar sua situação financeira e ajudar na compreensão de conceitos importantes.
+Também podemos pedir explicações sobre produtos financeiros, como CDB ou Tesouro Selic.
 
-Além disso, o sistema foi projetado com regras de segurança para evitar recomendações de investimentos e reduzir alucinações do modelo, garantindo um comportamento mais responsável.
+E um ponto importante:
+quando fazemos perguntas fora do escopo ou pedimos recomendação de investimento, o agente responde de forma segura, seguindo as regras definidas.
 
-O impacto dessa solução está em facilitar o acesso à educação financeira, ajudando pessoas a entender melhor suas finanças e tomar decisões mais conscientes.
+Isso garante um comportamento confiável.
+
+## 🎤 4. DIFERENCIAL (30s)
+
+O grande diferencial do Digo é unir inteligência artificial com dados estruturados do usuário.
+
+Isso permite respostas mais relevantes e personalizadas, diferente de assistentes genéricos.
+
+Além disso, o projeto foi pensado com foco em segurança e responsabilidade, evitando recomendações inadequadas.
+
+O impacto disso é ajudar pessoas a entender melhor suas finanças e tomar decisões mais conscientes no dia a dia.
 
 ---
 
