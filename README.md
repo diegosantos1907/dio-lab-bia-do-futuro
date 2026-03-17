@@ -24,6 +24,25 @@ O sistema combina análise de dados com linguagem natural, permitindo que o usu�
 
 ---
 
+## 📸 Evidências do Sistema
+
+### 📊 Dashboard Financeiro
+
+![Dashboard](assets/print1.png)
+
+---
+
+### 📈 Análise de Gastos
+
+![Gráficos](assets/print2.png)
+
+---
+
+### 💬 Chat com IA
+
+![Chat](assets/print3.png)
+
+---
 ## 🧠 Tecnologias Utilizadas
 
 - Python  
