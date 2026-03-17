@@ -73,6 +73,15 @@ src/        # Estrutura preparada para modularização futura
 app.py      # Aplicação principal (Streamlit)
 README.md   # Documentação principal
 ```
+---
+
+### 🧠 Decisão de Arquitetura
+
+A lógica do agente foi centralizada no arquivo `app.py` com o objetivo de simplificar a implementação do protótipo.
+
+Essa abordagem permite uma aplicação funcional, clara e de fácil entendimento, mantendo o foco na integração com a base de dados e na geração de respostas contextualizadas.
+
+A estrutura da pasta `src` foi mantida para possibilitar evolução futura do projeto, permitindo separação de responsabilidades como lógica do agente, análises e configurações.
 
 ---
 
