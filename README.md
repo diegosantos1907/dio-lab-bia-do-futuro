@@ -57,6 +57,8 @@ src/         # Código do agente
 app.py       # Interface Streamlit
 ```
 
+---
+
 ## ▶️ Como Executar o Projeto
 
 ### 1. Clonar o repositório
@@ -76,6 +78,8 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+---
 
 ## 🎥 Demonstração
 
