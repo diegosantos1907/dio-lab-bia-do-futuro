@@ -66,15 +66,12 @@ O sistema combina análise de dados com linguagem natural, permitindo que o usu�
 ## 📂 Estrutura do Projeto
 
 ```
-data/        # Dados do cliente (JSON e CSV)
-docs/        # Documentação do agente
-logs/        # Registros de conversas (logs)
-src/         # Código do agente
-│   ├── agente.py
-│   ├── analytics.py
-│   ├── auditoria.py
-│   └── agente_prompt.txt
-app.py       # Interface Streamlit
+data/       # Base de conhecimento (JSON e CSV)
+docs/       # Documentação do agente
+assets/     # Evidências do sistema
+src/        # Estrutura preparada para modularização futura
+app.py      # Aplicação principal (Streamlit)
+README.md   # Documentação principal
 ```
 
 ---
