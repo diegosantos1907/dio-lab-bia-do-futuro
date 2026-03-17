@@ -118,3 +118,35 @@ O agente possui algumas limitações importantes:
 - Não executa operações financeiras como pagamentos ou transferências.
 - Não substitui a orientação de um consultor financeiro profissional.
 - Não faz previsões de mercado financeiro ou recomendações baseadas em especulação.
+
+## Diferenciais do Agente
+
+O agente **Digo – Assistente Financeiro Inteligente** foi desenvolvido com foco em fornecer respostas seguras, contextualizadas e baseadas em dados reais do usuário. Seus principais diferenciais são:
+
+### 📊 Uso de dados reais do cliente
+O agente utiliza informações como renda, perfil de investidor e histórico de transações para gerar respostas personalizadas e relevantes.
+
+### 📈 Análise financeira automatizada
+O agente é capaz de calcular gastos totais, identificar o maior gasto mensal, analisar despesas por categoria e estimar o saldo disponível com base nos dados fornecidos.
+
+### 🔄 Atualização dinâmica dos dados
+A base de conhecimento é recarregada a cada interação, garantindo que as respostas estejam sempre atualizadas de acordo com os dados mais recentes.
+
+### 💬 Uso de histórico de conversa
+O agente considera interações anteriores no chat para manter o contexto da conversa, proporcionando respostas mais coerentes e contínuas ao longo do diálogo.
+
+### 📊 Dashboard dinâmico interativo
+O sistema possui uma interface em Streamlit que exibe informações financeiras de forma visual, como gráficos de gastos e resumo financeiro, permitindo uma melhor compreensão da situação do usuário.
+
+### 🛡️ Guardrails de segurança
+O agente possui regras que impedem recomendações financeiras específicas e o acesso a dados sensíveis, garantindo um comportamento seguro e responsável.
+
+### 📚 Foco em educação financeira
+O agente não apenas responde perguntas, mas também explica conceitos financeiros de forma clara, acessível e educativa.
+
+### ⚠️ Tratamento de exceções (edge cases)
+O agente responde corretamente a perguntas fora do escopo e solicitações inadequadas, mantendo consistência e confiabilidade.
+
+---
+
+Esses diferenciais tornam o **Digo** um assistente financeiro inteligente, confiável e capaz de apoiar usuários na organização e compreensão de suas finanças pessoais.
