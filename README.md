@@ -50,10 +50,10 @@ data/        # Dados do cliente (JSON e CSV)
 docs/        # Documentação do agente
 logs/        # Registros de conversas (logs)
 src/         # Código do agente
-├── agente.py
-├── analytics.py
-├── auditoria.py
-├── agente_prompt.txt
+│   ├── agente.py
+│   ├── analytics.py
+│   ├── auditoria.py
+│   └── agente_prompt.txt
 app.py       # Interface Streamlit
 ```
 
