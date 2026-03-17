@@ -28,19 +28,19 @@ O sistema combina análise de dados com linguagem natural, permitindo que o usu�
 
 ### 📊 Painel Financeiro
 
-![Painel](assets/Captura de Tela (25).png)
+![Painel](assets/dashboard.png)
 
 ---
 
 ### 📈 Análise de Gastos
 
-![Gráficos](assets/Captura de Tela (26).png)
+![Gráficos](assets/gastos.png)
 
 ---
 
 ### 💬 Bate-papo com IA
 
-![Chat](assets/Captura de Tela (28).png)
+![Chat](assets/chat.png)
 
 ---
 
