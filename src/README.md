@@ -16,8 +16,10 @@ src/
 
 ```
 streamlit
+pandas
 openai
 python-dotenv
+
 ```
 
 ## Como Rodar
