@@ -122,9 +122,10 @@ streamlit run app.py
 
 ---
 
-## 🎥 Demonstração
+## 🎬 Demonstração
 
-(Adicione aqui o link do seu vídeo pitch após gravar)
+▶️ Assista ao pitch do projeto:  
+https://youtu.be/8V3F7hzBNq8
 
 ---
 
