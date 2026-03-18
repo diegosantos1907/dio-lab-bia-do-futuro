@@ -70,8 +70,6 @@ O impacto disso é ajudar pessoas a entender melhor suas finanças e tomar decis
 
 ## Link do Vídeo
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
-
 ## 🎬 Pitch do Projeto
 
 Link do vídeo: https://youtu.be/8V3F7hzBNq8
